@@ -19,11 +19,6 @@
 		377941671E96DBCF0049A022 /* FLEX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941621E96DBCF0049A022 /* FLEX.framework */; };
 		377941681E96DBCF0049A022 /* MoPub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; };
 		377941691E96DBCF0049A022 /* SVProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377941641E96DBCF0049A022 /* SVProgressHUD.framework */; };
-		3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941631E96DBCF0049A022 /* MoPub.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F41E96E6A20026BBBC /* DCIntrospect_ARC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941601E96DBCF0049A022 /* DCIntrospect_ARC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F51E96E6A70026BBBC /* DZNEmptyDataSet.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941611E96DBCF0049A022 /* DZNEmptyDataSet.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F61E96E6AC0026BBBC /* FLEX.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941621E96DBCF0049A022 /* FLEX.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		3789B0F71E96E6B10026BBBC /* SVProgressHUD.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 377941641E96DBCF0049A022 /* SVProgressHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		379A6CAC1E95B47300625984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAB1E95B47300625984 /* main.m */; };
 		379A6CAF1E95B47300625984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 379A6CAE1E95B47300625984 /* AppDelegate.m */; };
 		379A6CBD1E95B47300625984 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 379A6CBB1E95B47300625984 /* LaunchScreen.storyboard */; };
@@ -138,20 +133,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		3789B0EC1E96E6030026BBBC /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3789B0F71E96E6B10026BBBC /* SVProgressHUD.framework in CopyFiles */,
-				3789B0F61E96E6AC0026BBBC /* FLEX.framework in CopyFiles */,
-				3789B0F51E96E6A70026BBBC /* DZNEmptyDataSet.framework in CopyFiles */,
-				3789B0F41E96E6A20026BBBC /* DCIntrospect_ARC.framework in CopyFiles */,
-				3789B0F21E96E60F0026BBBC /* MoPub.framework in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EE0BE018629DD8ED153A1F64 /* EarlGrey Copy Files */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -481,7 +462,6 @@
 			buildConfigurationList = 379A6CCC1E95B47300625984 /* Build configuration list for PBXNativeTarget "DemoApp" */;
 			buildPhases = (
 				9F0835A6DCA75B971207E8EB /* [CP] Check Pods Manifest.lock */,
-				3789B0EC1E96E6030026BBBC /* CopyFiles */,
 				379A6CA31E95B47300625984 /* Sources */,
 				379A6CA41E95B47300625984 /* Frameworks */,
 				379A6CA51E95B47300625984 /* Resources */,
@@ -532,6 +512,7 @@
 				TargetAttributes = {
 					379A6CA61E95B47300625984 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = JS335ZH9T8;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -920,13 +901,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JS335ZH9T8;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Vendor";
 				HEADER_SEARCH_PATHS = "\"$PODS_CONFIGURATION_BUILD_DIR/Headers\"";
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.twitterkit.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonolive.NonoLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
@@ -942,13 +923,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = JS335ZH9T8;
 				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../Vendor";
 				HEADER_SEARCH_PATHS = "\"$PODS_CONFIGURATION_BUILD_DIR/Headers\"";
 				INFOPLIST_FILE = DemoApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.twitterkit.demo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nonolive.NonoLive;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "DemoApp/DemoApp-Bridging-Header.h";
