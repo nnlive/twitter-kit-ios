@@ -147,7 +147,7 @@ static dispatch_once_t onceToken;
 {
     NSLog(@"[TwitterKit] Composer did fail: %@", error);
     if (self.completion) {
-        self.completion(TWTRComposerResultCancelled);
+        self.completion(TWTRComposerResultError);
     }
 }
 
